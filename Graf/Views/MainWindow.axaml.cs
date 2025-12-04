@@ -12,8 +12,7 @@ namespace Graf.Views
             double[] data = ScottPlot.Generate.Sin();
             
             var plt = MyPlot.Plot;
-            
-            
+
             plt.Add.Signal(data);
             MyPlot.Refresh();
         }
