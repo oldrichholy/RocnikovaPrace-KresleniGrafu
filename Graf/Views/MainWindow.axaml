@@ -24,8 +24,8 @@
         
         
         <StackPanel Grid.Column="0" Margin="10">
-            <TextBlock Text="veci" />
-            <Button Content="generovat" />
+            <TextBlock Text="veci"/>
+            <Button Content="generovat"/>
         </StackPanel>
         
         <ScottPlot:AvaPlot Grid.Column="1" x:Name="MyPlot"/>
